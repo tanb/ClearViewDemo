@@ -23,7 +23,7 @@
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
     UIView *hit = [super hitTest:point withEvent:event];
-    if ([hit isKindOfClass:[ClearView class]]) {
+    if (hit == self) {
         return nil;
     }
     return hit;
