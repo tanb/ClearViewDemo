@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7616DF015A6EE3100A64ADA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7616DEF15A6EE3100A64ADA /* UIKit.framework */; };
+		A7616DF215A6EE3100A64ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7616DF115A6EE3100A64ADA /* Foundation.framework */; };
+		A7616DF415A6EE3100A64ADA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7616DF315A6EE3100A64ADA /* CoreGraphics.framework */; };
+		A7616DFA15A6EE3100A64ADA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7616DF815A6EE3100A64ADA /* InfoPlist.strings */; };
+		A7616DFC15A6EE3100A64ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7616DFB15A6EE3100A64ADA /* main.m */; };
+		A7616E0015A6EE3100A64ADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7616DFF15A6EE3100A64ADA /* AppDelegate.m */; };
+		A7616E0A15A6EE5400A64ADA /* ClearView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7616E0915A6EE5400A64ADA /* ClearView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7616DEB15A6EE3100A64ADA /* ClearViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7616DEF15A6EE3100A64ADA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7616DF115A6EE3100A64ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7616DF315A6EE3100A64ADA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7616DF715A6EE3100A64ADA /* ClearViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearViewDemo-Info.plist"; sourceTree = "<group>"; };
+		A7616DF915A6EE3100A64ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7616DFB15A6EE3100A64ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7616DFD15A6EE3100A64ADA /* ClearViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClearViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A7616DFE15A6EE3100A64ADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7616DFF15A6EE3100A64ADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7616E0815A6EE5400A64ADA /* ClearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearView.h; sourceTree = "<group>"; };
+		A7616E0915A6EE5400A64ADA /* ClearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7616DE815A6EE3000A64ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7616DF015A6EE3100A64ADA /* UIKit.framework in Frameworks */,
+				A7616DF215A6EE3100A64ADA /* Foundation.framework in Frameworks */,
+				A7616DF415A6EE3100A64ADA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7616DE015A6EE3000A64ADA = {
+			isa = PBXGroup;
+			children = (
+				A7616DF515A6EE3100A64ADA /* ClearViewDemo */,
+				A7616DEE15A6EE3100A64ADA /* Frameworks */,
+				A7616DEC15A6EE3100A64ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7616DEC15A6EE3100A64ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7616DEB15A6EE3100A64ADA /* ClearViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7616DEE15A6EE3100A64ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7616DEF15A6EE3100A64ADA /* UIKit.framework */,
+				A7616DF115A6EE3100A64ADA /* Foundation.framework */,
+				A7616DF315A6EE3100A64ADA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7616DF515A6EE3100A64ADA /* ClearViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A7616DFE15A6EE3100A64ADA /* AppDelegate.h */,
+				A7616DFF15A6EE3100A64ADA /* AppDelegate.m */,
+				A7616E0815A6EE5400A64ADA /* ClearView.h */,
+				A7616E0915A6EE5400A64ADA /* ClearView.m */,
+				A7616DF615A6EE3100A64ADA /* Supporting Files */,
+			);
+			path = ClearViewDemo;
+			sourceTree = "<group>";
+		};
+		A7616DF615A6EE3100A64ADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7616DF715A6EE3100A64ADA /* ClearViewDemo-Info.plist */,
+				A7616DF815A6EE3100A64ADA /* InfoPlist.strings */,
+				A7616DFB15A6EE3100A64ADA /* main.m */,
+				A7616DFD15A6EE3100A64ADA /* ClearViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7616DEA15A6EE3000A64ADA /* ClearViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7616E0315A6EE3100A64ADA /* Build configuration list for PBXNativeTarget "ClearViewDemo" */;
+			buildPhases = (
+				A7616DE715A6EE3000A64ADA /* Sources */,
+				A7616DE815A6EE3000A64ADA /* Frameworks */,
+				A7616DE915A6EE3000A64ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearViewDemo;
+			productName = ClearViewDemo;
+			productReference = A7616DEB15A6EE3100A64ADA /* ClearViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7616DE215A6EE3000A64ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A7616DE515A6EE3000A64ADA /* Build configuration list for PBXProject "ClearViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7616DE015A6EE3000A64ADA;
+			productRefGroup = A7616DEC15A6EE3100A64ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7616DEA15A6EE3000A64ADA /* ClearViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7616DE915A6EE3000A64ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7616DFA15A6EE3100A64ADA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7616DE715A6EE3000A64ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7616DFC15A6EE3100A64ADA /* main.m in Sources */,
+				A7616E0015A6EE3100A64ADA /* AppDelegate.m in Sources */,
+				A7616E0A15A6EE5400A64ADA /* ClearView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7616DF815A6EE3100A64ADA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7616DF915A6EE3100A64ADA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7616E0115A6EE3100A64ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7616E0215A6EE3100A64ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7616E0415A6EE3100A64ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearViewDemo/ClearViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ClearViewDemo/ClearViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7616E0515A6EE3100A64ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearViewDemo/ClearViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ClearViewDemo/ClearViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7616DE515A6EE3000A64ADA /* Build configuration list for PBXProject "ClearViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7616E0115A6EE3100A64ADA /* Debug */,
+				A7616E0215A6EE3100A64ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7616E0315A6EE3100A64ADA /* Build configuration list for PBXNativeTarget "ClearViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7616E0415A6EE3100A64ADA /* Debug */,
+				A7616E0515A6EE3100A64ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7616DE215A6EE3000A64ADA /* Project object */;
+}
