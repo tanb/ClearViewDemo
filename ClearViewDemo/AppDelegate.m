@@ -25,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
+    // create scrollview as background.
     CGRect appFrame = [UIScreen mainScreen].applicationFrame;
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:appFrame];
     CGSize contentSize = appFrame.size;
@@ -32,14 +33,15 @@
     scrollView.contentSize = contentSize;
     [self.window addSubview:scrollView];
     
-    ClearView *clearView = [[ClearView alloc] initWithFrame:appFrame];
-    
+    // create clearView.
+    ClearView *clearView = [[ClearView alloc] initWithFrame:appFrame];    
     [self.window addSubview:clearView];
     
+    // create info button.
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
     [infoButton addTarget:self 
-                 action:@selector(infoButtonAction:)
-       forControlEvents:UIControlEventTouchUpInside];
+                   action:@selector(infoButtonAction:)
+         forControlEvents:UIControlEventTouchUpInside];
     infoButton.frame = CGRectMake(0, 0, 50, 50);
     infoButton.center = self.window.center;
     [clearView addSubview:infoButton];
