@@ -2,6 +2,7 @@ ClearViewDemo
 =============
 
 単に座標系として利用する目的でタッチイベントをハンドルしないようにしたView.
+
 userIntaractionEnabledをきるとsubviewsにイベントが伝播しなくなるのでこの方法をとる。
 
 デモではwindowの上にscrollViewとclearViewが乗っかっている。
